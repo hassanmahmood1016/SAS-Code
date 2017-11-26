@@ -1,7 +1,7 @@
-libname corn 'C:\Users\salmanmahmood15\Desktop\homework2'; 
+libname corn 'C:\Users\hassan\Desktop\corn'; 
 
 
-data corn.hw2;
+data corn.hw;
  INPUT id name$ acres yield  soy STATE$;
  cards;
 
@@ -38,7 +38,7 @@ proc freq data=corn.hw2;
 tables soy / out = outputsoy;
 run;
 
-libname dataset "C:\Users\salmanmahmood15\Desktop\homework2";
+libname dataset "C:\Users\hassan\Desktop\homework2";
 data dataset.outputsoy;
 set outputsoy;
 run;
