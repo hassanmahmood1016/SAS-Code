@@ -1,4 +1,4 @@
-libname GWU  "C:\Users\salmanmahmood15\Desktop\homework";
+libname american  "C:\Users\hassan\Desktop\homework";
 data final;
 set gwu.missouri_dairy;
 if milk_sales > 0;
