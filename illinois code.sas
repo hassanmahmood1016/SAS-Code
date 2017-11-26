@@ -1,4 +1,4 @@
-libname project "C:\Users\salmanmahmood15\Desktop\project";
+libname project "C:\Users\hassan\Desktop\project";
 data project.illinois_crops;
 set project.illinois_crops;
 run;
@@ -51,7 +51,7 @@ quit;
 
 
 data project.partB;
- infile "C:\Users\salmanmahmood15\Desktop\project\data.txt" dlm= ','; 
+ infile "C:\Users\hassan\Desktop\project\data.txt" dlm= ','; 
  input state$ district county countyname$;
  run;
 
