@@ -2,7 +2,7 @@
 /* MANIPULATING SAS DATA SETS */
 /* Find the 10 US operations ( program states ) with the largest sales. */
 /* Find the 5 operations with the the largest sales in each program state. */
-libname GWU
+libname fish
 'C:\Users\salmanmahmood15\Desktop\homework1';
 /* Catfish has sales data for farm operations reporting catfish sales in 2016.
 Variables StateId district county PoId sales */
