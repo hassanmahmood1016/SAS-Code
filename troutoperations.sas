@@ -1,4 +1,4 @@
-libname homework "C:\Users\salmanmahmood15\Desktop\homework3";
+libname homework "C:\Users\hassan\Desktop\homework3";
 data homework.concatenation;
 set homework.trout_disqualify homework.trout_operations;
 run;
