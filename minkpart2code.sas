@@ -1,4 +1,4 @@
-libname project "C:\Users\salmanmahmood15\Desktop\project";
+libname project "C:\Users\hassan\Desktop\project";
 data project.mink;
 set mink;
 run;
@@ -34,7 +34,7 @@ stateminkpercent = stateminkpercentmax;
 drop stateminkpercentmax;
 run;
 
-libname project "C:\Users\salmanmahmood15\Desktop\project";
+libname project "C:\Users\hassan\Desktop\project";
 data fips;
 set project.fips;
 run;
